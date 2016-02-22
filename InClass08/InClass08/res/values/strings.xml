@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="parse_app_id">Xpe8EaAoh9JEuDyGCfbxuERjwran8y6fREJCysqq</string>
+    <string name="parse_client_key">UYdfkI300aFz513Rc45PJBUomDaqXvgqXnK7TUsp</string>
+    <string name="app_name">InClass08</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">In Class 8 (Login)</string>
+    <string name="title_activity_sign_up">In Class 8 (SignUp)</string>
+    <string name="title_activity_ToDo">In Class 8 (ToDo List)</string>
+    
+    
+    <string name="logon_email_hint">Email</string>
+    <string name="logon_password_hint">Password</string>
+    <string name="logon_btn_login_text">Login</string>
+    <string name="logon_btn_create_text">Create New Account</string>
+    
+    <string name="signup_name_hint">First Last Name</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Password</string>
+    <string name="signup_conf_password_hint">Confirm Password</string>
+    <string name="signup_btn_signup_text">Sign Up</string>
+    <string name="signup_btn_cancel_text">Cancel</string>
+    
+    <string name="todo_dlg_new_task_title">Add an item</string>
+    <string name="todo_dlg_new_task_hint">Enter Text</string>
+    <string name="todo_dlg_btn_ok_text">OK</string>
+    <string name="todo_dlg_btn_cancel_text">Cancel</string>
+    <string name="todo_dlg_err_missing_inputs">A task name is required.</string>
+    <string name="todo_dlg_successful_save_template">Task {TASK} successfully saved.</string>
+    <string name="save_template_tag">{TASK}</string>
+    
+    <string name="logon_err_missing_inputs">Email and password are both required fields.</string>
+    <string name="logon_err_failed_signin">Unable to sign in. Please recheck email and password and retry.</string>
+    
+    <string name="signup_err_missing_inputs">All fields are required.</string>
+    <string name="signup_err_pass_mismatch">Your passwords dont match.</string>
+    <string name="signup_err_email_taken">That email is already registered, please enter a different one.</string>
+    <string name="signup_success_text">User was successfully created.</string>
+    
+    <string name="action_add_text">Add</string>
+    <string name="action_logout_text">Logout</string>
+
+</resources>

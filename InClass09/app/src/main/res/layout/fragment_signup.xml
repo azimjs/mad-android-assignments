@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.inclass09.SignupFragment">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="${relativePackage}.${activityClass}" >
+
+        <EditText
+            android:id="@+id/et_signup_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/signup_name_hint"
+            android:inputType="textPersonName" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_signup_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+
+            android:layout_below="@+id/et_signup_name"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/signup_email_hint"
+            android:inputType="textEmailAddress" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_signup_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/et_signup_email"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/signup_password_hint"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/et_signup_conf_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/et_signup_password"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/signup_conf_password_hint"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btn_signup_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/et_signup_conf_password"
+            android:layout_marginTop="50dp"
+            android:text="@string/signup_btn_signup_text" />
+
+        <Button
+            android:id="@+id/btn_signup_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/btn_signup_signup"
+            android:layout_marginTop="35dp"
+            android:text="@string/signup_btn_cancel_text" />
+
+    </RelativeLayout>
+</FrameLayout>

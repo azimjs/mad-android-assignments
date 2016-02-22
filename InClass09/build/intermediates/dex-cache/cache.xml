@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Java\Android\android-sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="D:\Workbench\Studio\InClass09\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-525ea6ca38f4d08e766b03c6d2f57144ff4afabd.jar" />
+    </item>
+    <item
+        jar="D:\Workbench\Studio\InClass09\app\libs\Parse-1.9.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fe739334780fe321141e62720822c2d456061899">
+        <dex dex="D:\Workbench\Studio\InClass09\app\build\intermediates\pre-dexed\debug\Parse-1.9.2-b465790984162192fea6f9915f7b7124f7844b2f.jar" />
+    </item>
+    <item
+        jar="D:\Workbench\Studio\InClass09\app\libs\bolts-android-1.2.0-javadoc.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0b98cf117d6ed838f776a7f0765c7f04191d7b8e">
+        <dex dex="D:\Workbench\Studio\InClass09\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-javadoc-bcad6d96988cdb29d804d0cf632e33af47ba6e1b.jar" />
+    </item>
+    <item
+        jar="D:\Workbench\Studio\InClass09\app\libs\ParseCrashReporting-1.9.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="83f3b1e397f1cc3f05cb9db078d9e364b5f5e218">
+        <dex dex="D:\Workbench\Studio\InClass09\app\build\intermediates\pre-dexed\debug\ParseCrashReporting-1.9.2-4c9a6bf2f2656c874352d5bcddcf8ec239f3b883.jar" />
+    </item>
+    <item
+        jar="D:\Workbench\Studio\InClass09\app\libs\bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="D:\Workbench\Studio\InClass09\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-16e28e37ae6f2db49f7625a9ceb1d8bdbce3b9e4.jar" />
+    </item>
+    <item
+        jar="D:\Workbench\Studio\InClass09\app\libs\ParseFacebookUtilsV4-1.9.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bab281cc21f6a68152e11ab53b053790ccfd6764">
+        <dex dex="D:\Workbench\Studio\InClass09\app\build\intermediates\pre-dexed\debug\ParseFacebookUtilsV4-1.9.2-ea73a74906201acd105dd64e668e6d738f2cea49.jar" />
+    </item>
+
+</items>

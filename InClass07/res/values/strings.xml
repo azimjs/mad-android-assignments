@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Popular News Events</string>
+ 
+    <string name="title_activity_news">News Headlines</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_sortbytitle_az">Sort By Title A-Z</string>
+    <string name="action_sortbytitle_za">Sort By Title Z-A</string>
+    <string name="action_sortbydate_asc">Pub Date Ascending</string>
+    <string name="action_sortbydate_dsc">Pub Date Descending</string>
+    <string name="action_showNewStories">Show New Stories</string>
+    <string name="action_clearHistory">Clear My History</string>
+    <string name="title_activity_news_details">News Details</string>
+    <string name="title_activity_news_web_view">News WebView</string>
+    <string name="news_cat_top_stories_uri">http://feeds.bbci.co.uk/news/rss.xml</string>
+    <string name="news_cat_world_uri">http://feeds.bbci.co.uk/news/world/rss.xml</string>
+    <string name="news_cat_uk_uri">http://feeds.bbci.co.uk/news/uk/rss.xml</string>
+    <string name="news_cat_business_uri">http://feeds.bbci.co.uk/news/business/rss.xml</string>
+    <string name="news_cat_politics_uri">http://feeds.bbci.co.uk/news/politics/rss.xml</string>
+    <string name="news_cat_health_uri">http://feeds.bbci.co.uk/news/health/rss.xml</string>
+    <string name="news_cat_education_uri">http://feeds.bbci.co.uk/news/education/rss.xml</string>
+    <string name="news_cat_science_uri">http://feeds.bbci.co.uk/news/science_and_environment/rss.xml</string>
+    <string name="news_cat_technology_uri">http://feeds.bbci.co.uk/news/technology/rss.xml</string>
+    <string name="news_cat_entertainment_uri">http://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml</string>
+ 	
+ 	<string name="details_description_caption">Description</string>
+ 	<string name="details_views_caption">Views</string>
+    
+    <string name="results_loading_caption">Loading News..</string>
+    <string name="image_loading_caption">Loading Image..</string>
+
+</resources>

@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.inclass09.LoginFragment">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="${relativePackage}.${activityClass}" >
+
+        <EditText
+            android:id="@+id/et_log_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="82dp"
+            android:ems="10"
+            android:hint="@string/logon_email_hint"
+            android:inputType="textEmailAddress" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_log_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/et_log_email"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/logon_password_hint"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btn_log_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/et_log_password"
+            android:layout_marginTop="50dp"
+            android:text="@string/logon_btn_login_text" />
+
+        <Button
+            android:id="@+id/btn_log_create"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/btn_log_login"
+            android:layout_marginTop="35dp"
+            android:text="@string/logon_btn_create_text" />
+
+    </RelativeLayout>
+
+</FrameLayout>
+<!-- From: file:/D:/Workbench/Studio/InClass09/app/src/main/res/layout/fragment_login.xml -->

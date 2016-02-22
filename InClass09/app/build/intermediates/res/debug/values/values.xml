@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Workbench/Studio/InClass09/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/D:/Workbench/Studio/InClass09/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_add_text">Add</string>
+    <string name="action_logout_text">Logout</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">InClass09</string>
+    <string name="hello_blank_fragment">Splash</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="logon_btn_create_text">Create New Account</string>
+    <string name="logon_btn_login_text">Login</string>
+    <string name="logon_email_hint">Email</string>
+    <string name="logon_err_failed_signin">Unable to sign in. Please recheck email and password and retry.</string>
+    <string name="logon_err_missing_inputs">Email and password are both required fields.</string>
+    <string name="logon_password_hint">Password</string>
+    <string name="parse_app_id">Xpe8EaAoh9JEuDyGCfbxuERjwran8y6fREJCysqq</string>
+    <string name="parse_client_key">UYdfkI300aFz513Rc45PJBUomDaqXvgqXnK7TUsp</string>
+    <string name="save_template_tag">{TASK}</string>
+    <string name="signup_btn_cancel_text">Cancel</string>
+    <string name="signup_btn_signup_text">Sign Up</string>
+    <string name="signup_conf_password_hint">Confirm Password</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_err_email_taken">That email is already registered, please enter a different one.</string>
+    <string name="signup_err_missing_inputs">All fields are required.</string>
+    <string name="signup_err_pass_mismatch">Your passwords dont match.</string>
+    <string name="signup_name_hint">First Last Name</string>
+    <string name="signup_password_hint">Password</string>
+    <string name="signup_success_text">User was successfully created.</string>
+    <string name="title_activity_ToDo">In Class 8 (ToDo List)</string>
+    <string name="title_activity_main">Main Activity</string>
+    <string name="title_activity_sign_up">In Class 8 (SignUp)</string>
+    <string name="title_fragment_login">In Class 9 (Login)</string>
+    <string name="title_fragment_splash">In Class 9 (Splash)</string>
+    <string name="todo_details_btn_delete_text">Delete</string>
+    <string name="todo_dlg_btn_cancel_text">Cancel</string>
+    <string name="todo_dlg_btn_ok_text">OK</string>
+    <string name="todo_dlg_err_missing_inputs">A task name is required.</string>
+    <string name="todo_dlg_new_task_hint">Enter Text</string>
+    <string name="todo_dlg_new_task_title">Add an item</string>
+    <string name="todo_dlg_successful_save_template">Task {TASK} successfully saved.</string>
+    <!-- From: file:/D:/Workbench/Studio/InClass09/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

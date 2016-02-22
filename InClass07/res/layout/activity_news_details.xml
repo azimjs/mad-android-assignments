@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/tvStoryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvPubDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/tvStoryTitle"
+        android:layout_marginTop="5dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/tvViews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/tvPubDate"
+        android:layout_marginTop="5dp"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/ivLinkImage"
+        android:layout_width="250dp"
+        android:layout_height="175dp"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvViews"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tvDescriptionCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ivLinkImage"
+        android:text="@string/details_description_caption"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDescriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvDescriptionCaption"
+        android:text="TextView" />
+</RelativeLayout>

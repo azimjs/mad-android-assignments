@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.midterms2015.NewsActivity" >
+
+    <item
+        android:id="@+id/action_sort_title_a2z"
+        android:orderInCategory="10"
+        android:showAsAction="never"
+        android:title="@string/action_sortbytitle_az"/>
+
+    <item
+        android:id="@+id/action_sort_title_z2a"
+        android:orderInCategory="20"
+        android:showAsAction="never"
+        android:title="@string/action_sortbytitle_za"/>
+    
+    <item
+        android:id="@+id/action_sort_pubdate_ascending"
+        android:orderInCategory="30"
+        android:showAsAction="never"
+        android:title="@string/action_sortbydate_asc"/>
+    
+    <item
+        android:id="@+id/action_sort_pubdate_descending"
+        android:orderInCategory="40"
+        android:showAsAction="never"
+        android:title="@string/action_sortbydate_dsc"/>
+    
+    <item
+        android:id="@+id/action_show_new_stories"
+        android:orderInCategory="50"
+        android:showAsAction="never"
+        android:title="@string/action_showNewStories"/>
+    
+    <item
+        android:id="@+id/action_clear_my_history"
+        android:orderInCategory="60"
+        android:showAsAction="never"
+        android:title="@string/action_clearHistory"/>
+</menu>
