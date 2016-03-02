@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/tvComplexityCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:text="@string/txt_complex_caption" />
+
+    <TextView
+        android:id="@+id/tvComplexityDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvComplexityCaption"
+        android:layout_alignBottom="@+id/tvComplexityCaption"
+        android:layout_alignParentRight="true"
+        android:text="@string/txt_complex_display_suffix" />
+
+    <SeekBar
+        android:id="@+id/sbComplexity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:progress="@string/txt_complex_default"
+        android:max="10"
+        android:layout_below="@+id/tvComplexityCaption" />
+
+    <TextView
+        android:id="@+id/tvComplexityCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvComplexityDisplay"
+        android:layout_alignBottom="@+id/tvComplexityDisplay"
+        android:layout_toLeftOf="@+id/tvComplexityDisplay"
+        android:layout_marginRight="7dp"
+        android:text="@string/txt_complex_default" />
+
+    <Button
+        android:id="@+id/btnAsyncTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/btnThreadTask"
+        android:layout_marginTop="50dp"
+        android:text="@string/btn_gen_async_text" />
+
+    <Button
+        android:id="@+id/btnPhotoSlideTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnAsyncTask"
+        android:layout_marginTop="50dp"
+        android:text="@string/btn_photo_slide_text" />
+
+    <Button
+        android:id="@+id/btnThreadTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/sbComplexity"
+        android:layout_marginTop="79dp"
+        android:text="@string/btn_gen_thread_text" />
+
+    <TextView
+        android:id="@+id/tvResultDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/sbComplexity"
+        android:layout_marginTop="28dp" />
+
+</RelativeLayout>

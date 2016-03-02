@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+ * Assignment InClass05.
+ * strings.xml
+ * Programmers { Mike Hofmeister, Azim Saiyed, Timothy Shay }
+ */
+ -->
+<resources>
+
+    <string name="app_name">Flickr Search App</string>
+    
+    
+    <string name="flickr_api_search_uri_template">https://api.flickr.com/services/rest/?method=flickr.photos.search&amp;api_key=819f91b9fc101fc95839af6a01c6f8e3&amp;text={SEARCH_TAG}&amp;extras=url_m&amp;per_page=20&amp;format=rest</string>
+    <string name="flickr_search_tag">{SEARCH_TAG}</string>
+    
+    
+    <string name="btn_go_text">Go</string>
+    <string name="photo_loading_caption">Loading Photo...</string>
+    <string name="btn_previous_img">ic_action_previous_item.png</string>
+    <string name="btn_next_img">ic_action_next_item.png</string>
+    
+
+    <string name="err_missing_search">Please enter search text</string>
+    <string name="err_missing_internet_connection">No internet connection</string>
+</resources>

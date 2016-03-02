@@ -1,0 +1,100 @@
+<!--
+	Assignment: In Class 2b
+	File: activity_main.xml
+	Programmers:  { Mike Hofmeister, Azim Saiyed, Timothy Shay } 
+ -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="Number 1"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"
+        android:text="@string/text_default_input" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText1"
+        android:ems="10"
+        android:hint="Number 2"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"
+        android:text="@string/text_default_input" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="16dp"
+        android:text="@string/text_result" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1" >
+
+        
+
+        <RadioButton
+            android:id="@+id/rbAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/text_add" />
+
+        <RadioButton
+            android:id="@+id/rbSubtract"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_subtract" />
+
+        <RadioButton
+            android:id="@+id/rbMultiply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_multiply" />
+        
+        <RadioButton
+            android:id="@+id/rbDivide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_divide" />
+        
+        <RadioButton
+            android:id="@+id/rbClearAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_clear_all" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnPerformOperation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/radioGroup1"
+        android:layout_marginTop="61dp"
+        android:text="@string/text_perform_operation" />
+
+</RelativeLayout>

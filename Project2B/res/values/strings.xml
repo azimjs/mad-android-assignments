@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Assignment: In Class 2b
+	File: strings.xml
+	Programmers:  { Mike Hofmeister, Azim Saiyed, Timothy Shay }  
+ -->
+<resources>
+
+    <string name="app_name">In Class 2b</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="text_add">Add (+)</string>
+    <string name="text_subtract">Subtract (-)</string>
+    <string name="text_multiply">Multiply (x)</string>
+    <string name="text_divide">Divide (/)</string>
+    <string name="text_perform_operation">Perform Operation</string>
+    <string name="text_result">Result:</string>
+    <string name="text_clear_all">Clear All</string>
+    <string name="text_default_input"></string>
+    <string name="text_err_divide_by_zero">Error: divide by zero</string>
+    <string name="text_err_NaN_input">Error: One or more inputs are not numeric</string>
+
+</resources>

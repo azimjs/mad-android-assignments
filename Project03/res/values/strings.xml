@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  
+ Assignment In Class 3.
+ strings.xml
+ Programmers { Mike Hofmeister, Azim Saiyed, Timothy Shay }
+ -->
+<resources>
+
+    <string name="app_name">Student Profile</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="et_name_hint">Name</string>
+    <string name="et_email_hint">Email</string>
+    <string name="tv_favorite_caption">Favorite Programming Language</string>
+    <string name="rb_text_java">Java</string>
+    <string name="rb_text_c">C</string>
+    <string name="rb_text_csharp">C#</string>
+    <string name="tv_searchable_caption">Account is searchable</string>
+    <string name="tv_mood_caption">Your current mood:</string>
+    <string name="err_missing_name">Please enter a name</string>
+    <string name="err_missing_email">Please enter a valid email address</string>
+    <string name="btn_submit_text">Submit</string>
+    <string name="title_activity_display">DisplayActivity</string>
+    <string name="ia_tv_student_information_caption">Student Information</string>
+    <string name="ia_tv_name_caption">Name:</string>
+    <string name="ia_tv_email_caption">Email:</string>
+    <string name="ia_tv_favorite_caption">Prog. Language:</string>
+    <string name="ia_tv_account_status_caption">Account State:</string>
+    <string name="ia_tv_mood_caption">Mood:</string>
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="btn_save_text">Save</string>
+
+</resources>

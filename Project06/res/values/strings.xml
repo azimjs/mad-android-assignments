@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Assignment InClass06.
+ * strings.xml
+ * Programmers { Mike Hofmeister, Azim Saiyed, Timothy Shay }
+ */ 
+ -->
+<resources>
+
+    <string name="app_name">InClass06</string>
+    <string name="activity_title">Gallery Activity</string>
+    <string name="main_btn_submit_text">Submit</string>
+    <string name="api_uri_template">https://api.500px.com/v1/photos/search?consumer_key=MOix99o3LY37OVxrIiTlmMmr9f68WFHMj3UAHanu&amp;term={TERM_TAG}&amp;image_size=4&amp;rpp=50</string>
+    <string name="api_term_tag">{TERM_TAG}</string>
+    <string name="err_missing_term">Please enter a search term</string>
+    <string name="title_activity_gallery">Gallery Activity</string>
+    <string name="title_activity_details">Details Activity</string>
+    <string name="photo_owner_caption">Photo by: </string>
+    <string name="results_loading_caption">Loading results...</string>
+    <string name="photo_loading_caption">Loading photo...</string>
+    <string name="err_missing_internet_connection">No internet connection</string>
+
+</resources>

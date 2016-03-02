@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/tvNameCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/ia_tv_name_caption" />
+
+    <TextView
+        android:id="@+id/tvEmailCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvNameCaption"
+        android:layout_marginTop="20dp"
+        android:text="@string/ia_tv_email_caption" />
+    
+    <TextView
+        android:id="@+id/tvFavoriteCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvEmailCaption"
+        android:layout_marginTop="20dp"
+        android:text="@string/ia_tv_favorite_caption" />
+
+    <TextView
+        android:id="@+id/tvAccountStatusCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvFavoriteCaption"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/ia_tv_account_status_caption" />
+
+    <TextView
+        android:id="@+id/tvMoodCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvAccountStatusCaption"
+        android:layout_marginTop="20dp"
+        android:text="@string/ia_tv_mood_caption" />
+
+    <TextView
+        android:id="@+id/tvEmailDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvEmailCaption"
+        android:layout_alignLeft="@+id/tvNameDisplay"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvFavoriteDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvFavoriteCaption"
+        android:layout_alignLeft="@+id/tvEmailDisplay"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvStatusDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvAccountStatusCaption"
+        android:layout_alignLeft="@+id/tvFavoriteDisplay"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvMoodDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvMoodCaption"
+        android:layout_alignLeft="@+id/tvStatusDisplay"
+        android:text="TextView" />
+
+    <ImageButton
+        android:id="@+id/ibName"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_above="@+id/tvEmailCaption"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/ic_action_edit" />
+
+    <ImageButton
+        android:id="@+id/ibEmail"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignBottom="@+id/tvEmailDisplay"
+        android:layout_alignLeft="@+id/ibName"
+        android:src="@drawable/ic_action_edit" />
+
+    <ImageButton
+        android:id="@+id/ibLanguage"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_above="@+id/tvAccountStatusCaption"
+        android:layout_alignLeft="@+id/ibEmail"
+        android:src="@drawable/ic_action_edit" />
+
+    <ImageButton
+        android:id="@+id/ibStatus"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_above="@+id/tvMoodCaption"
+        android:layout_alignLeft="@+id/ibLanguage"
+        android:src="@drawable/ic_action_edit" />
+
+    <ImageButton
+        android:id="@+id/ibMood"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignBottom="@+id/tvMoodDisplay"
+        android:layout_alignLeft="@+id/ibStatus"
+        android:src="@drawable/ic_action_edit" />
+
+    <TextView
+        android:id="@+id/tvNameDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvEmailCaption"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/tvFavoriteCaption"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvStudentInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ibName"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_horizontal"
+        android:text="@string/ia_tv_student_information_caption"
+        android:textStyle="bold" />
+
+</RelativeLayout>

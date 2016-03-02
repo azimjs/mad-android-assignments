@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Assignment In Class 4.
+ * strings.xml
+ * Programmers { Mike Hofmeister, Azim Saiyed, Timothy Shay }
+ */ 
+ -->
+<resources>
+
+    <string name="app_name">InClass4</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="txt_complex_caption">Select Complexity:</string>
+    <string name="txt_complex_display_suffix">Times</string>
+    <string name="txt_complex_default">5</string>
+    <string name="btn_gen_thread_text">Generate Number Thread</string>
+    <string name="btn_gen_async_text">Generate Number Async Task</string>
+    <string name="btn_photo_slide_text">Photo Slide Show</string>
+    <string name="dlg_progress_text">Retrieving the number..</string>
+    <string name="title_activity_slide_show">SlideShowActivity</string>
+    <string name="image_uri">http://dev.theappsdr.com/apis/photos.php</string>
+    <string name="dlg_loading_image_links">Loading Image Links</string>
+    <string name="dlg_loading_images">Loading Image</string>
+    <string name="err_seekbar_min">Please select a complexity greater than 0</string>
+
+</resources>

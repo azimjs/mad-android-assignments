@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+ * Class Assignment 2A
+ * MainActivity.java
+ * Students { Michael Hofmeister, Azim Javedali Saiyed, Timothy Shay }
+ -->
+<resources>
+
+    <string name="app_name">InClass2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="text_hint1">Number1</string>
+    <string name="text_hint2">Number2</string>
+    <string name="text_result">Result:</string>
+    <string name="text_button_add">Add (+)</string>
+    <string name="text_button_subtract">Subtract (-)</string>
+    <string name="text_button_multiply">Multiply (x)</string>
+    <string name="text_button_divide">Divide (/)</string>
+    <string name="text_button_clearall">Clear All</string>
+    <string name="text_err_nan">Error ! Text Fields are not a number or null !</string>
+    <string name="text_err_dbyz">Error ! Divide By Zero !</string>
+    
+</resources>

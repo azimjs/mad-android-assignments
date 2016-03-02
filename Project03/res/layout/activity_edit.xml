@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@string/et_name_hint"
+        android:visibility="invisible" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etName"
+        android:ems="10"
+        android:hint="@string/et_email_hint"
+        android:inputType="textEmailAddress"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tvFavoriteLanguageCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etEmail"
+        android:layout_marginTop="24dp"
+        android:text="@string/tv_favorite_caption"
+        android:visibility="invisible" />
+
+    <RadioGroup
+        android:id="@+id/rgFavoriteLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvFavoriteLanguageCaption"
+        android:layout_marginLeft="14dp"
+        android:visibility="invisible" >
+
+        <RadioButton
+            android:id="@+id/rbJava"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/rb_text_java" />
+
+        <RadioButton
+            android:id="@+id/rbC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_text_c" />
+
+        <RadioButton
+            android:id="@+id/rbCsharp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_text_csharp" />
+    </RadioGroup>
+
+    <Switch
+        android:id="@+id/swSearchable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rgFavoriteLanguage"
+        android:text="@string/tv_searchable_caption"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tvMoodCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/swSearchable"
+        android:layout_marginTop="21dp"
+        android:text="@string/tv_mood_caption"
+        android:visibility="invisible" />
+
+    <SeekBar
+        android:id="@+id/sbMood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvMoodCaption"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/sbMood"
+        android:layout_marginTop="27dp"
+        android:text="@string/btn_save_text" />
+</RelativeLayout>
